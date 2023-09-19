@@ -27,7 +27,7 @@ openai.api_key = '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'
 completion = openai.ChatCompletion.create(
   model = 'gpt-3.5-turbo',
   messages = [
-    {'role': 'assistant', 'content': 'provide data for number of nuclear bombs per year. provide data in the form of (x,y) that is it, no other words other than titles of data.'}
+    {'role': 'assistant', 'content': 'personality condridicitions for smart people (trait, but trait)'}
   ],
   temperature = 0  
 )
