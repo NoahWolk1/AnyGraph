@@ -15,7 +15,7 @@ for i in independentList:
     i = str(i)
     firstStringList += i + ", "
 
-kaggleCompare = ("Find the list " + fullExperiment + "with one of the names in the list:" + firstStringList + ". Only return the name that matches best. Just find the best name, even if you think nothing matches ")
+kaggleCompare = ("Find the list " + fullExperiment + "with one of the names in the list:" + firstStringList + ". Only return the name that matches best. Just find the best name, even if you think nothing matches. I only want the name, no other words")
 
 
 completion = openai.ChatCompletion.create(
